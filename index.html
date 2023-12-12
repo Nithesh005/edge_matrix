@@ -1151,7 +1151,7 @@
 														<div class="elementor-widget-container">
 															<div
 																class="title-wrapper set-mb-s reset-last-child wd-title-color-white wd-title-style-default wd-title-size-default text-left">
-																
+
 
 																<div class="liner-continer">
 																	<h4
@@ -2947,17 +2947,106 @@
 																		the capabilities of AI systems.</p> 
 																</div>
 															</div>
+
 														</div>
 													</div>
 												</div>
 											</div>
-											<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-32bc5e24"
+											<div class="elementor-widget-container">
+												<style>
+													/*! elementor - v3.14.0 - 26-06-2023 */
+													.elementor-widget-video .elementor-widget-container {
+														overflow: hidden;
+														transform: translateZ(0)
+													}
+
+													.elementor-widget-video .elementor-wrapper {
+														aspect-ratio: var(--video-aspect-ratio)
+													}
+
+													.elementor-widget-video .elementor-wrapper iframe,
+													.elementor-widget-video .elementor-wrapper video {
+														height: 100%;
+														width: 100%;
+														display: flex;
+														border: none;
+														background-color: #000
+													}
+
+													@supports not (aspect-ratio:1/1) {
+														.elementor-widget-video .elementor-wrapper {
+															position: relative;
+															overflow: hidden;
+															height: 0;
+															padding-bottom: calc(100% / var(--video-aspect-ratio))
+														}
+
+														.elementor-widget-video .elementor-wrapper iframe,
+														.elementor-widget-video .elementor-wrapper video {
+															position: absolute;
+															top: 0;
+															right: 0;
+															bottom: 0;
+															left: 0
+														}
+													}
+
+													.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay {
+														position: absolute;
+														top: 0;
+														left: 0;
+														width: 100%;
+														height: 100%;
+														background-size: cover;
+														background-position: 50%
+													}
+
+													.elementor-widget-video .elementor-custom-embed-image-overlay {
+														cursor: pointer;
+														text-align: center
+													}
+
+													.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i {
+														opacity: 1
+													}
+
+													.elementor-widget-video .elementor-custom-embed-image-overlay img {
+														display: block;
+														width: 100%
+													}
+
+													.elementor-widget-video .e-hosted-video .elementor-video {
+														-o-object-fit: cover;
+														object-fit: cover
+													}
+
+													.e-con-inner>.elementor-widget-video,
+													.e-con>.elementor-widget-video {
+														width: var(--container-widget-width);
+														--flex-grow: var(--container-widget-flex-grow)
+													}
+												</style>
+												<div class="elementor-wrapper elementor-open-inline">
+													<div class="elementor-video"></div>
+													<div class="elementor-custom-embed-image-overlay"
+														style="background-image: url(https://edgematrixcorp.com/wp-content/uploads/2023/01/20230108_113713_0000.jpg);">
+														<div class="elementor-custom-embed-play" role="button"
+															aria-label="Play Video" tabindex="0">
+															<i aria-hidden="true" class="eicon-play"></i> <span
+																class="elementor-screen-only">Play Video</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-32bc5e24"
 												data-id="32bc5e24" data-element_type="column">
 												<div class="elementor-widget-wrap elementor-element-populated">
 													<div class="elementor-element elementor-element-26cb24ea wd-video-theme-style elementor-widget elementor-widget-video"
 														data-id="26cb24ea" data-element_type="widget"
 														data-settings="{&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/mJeNghZXtMo&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/edgematrixcorp.com\/wp-content\/uploads\/2023\/01\/20230108_113713_0000.jpg&quot;,&quot;id&quot;:9009,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;video_type&quot;:&quot;youtube&quot;}"
 														data-widget_type="video.default">
+
 														<div class="elementor-widget-container">
 															<style>
 																/*! elementor - v3.11.1 - 15-02-2023 */
@@ -3022,10 +3111,38 @@
 																	</div>
 																</div>
 															</div>
+															
+														</div>
+													</div>
+												</div>
+											</div> -->
+											<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-32bc5e24"
+												data-id="32bc5e24" data-element_type="column">
+												<div class="elementor-widget-wrap elementor-element-populated">
+													<div class="elementor-element elementor-element-26cb24ea wd-video-theme-style elementor-widget elementor-widget-video"
+														data-id="26cb24ea" data-element_type="widget"
+														data-settings="{&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/mJeNghZXtMo&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/edgematrixcorp.com\/wp-content\/uploads\/2023\/01\/20230108_113713_0000.jpg&quot;,&quot;id&quot;:9009,&quot;size&quot;:&quot;&quot;,&quot;alt&quot;:&quot;&quot;,&quot;source&quot;:&quot;library&quot;},&quot;video_type&quot;:&quot;youtube&quot;}"
+														data-widget_type="video.default">
+
+														<div class="elementor-widget-container">
+															<div class="elementor-wrapper elementor-open-inline">
+																<div class="elementor-video"></div>
+																<div class="elementor-custom-embed-image-overlay"
+																	style="background-image: url(https://edgematrixcorp.com/wp-content/uploads/2023/01/20230108_113713_0000.jpg);">
+																	<div class="elementor-custom-embed-play"
+																		role="button" aria-label="Play Video"
+																		tabindex="0">
+																		<i aria-hidden="true" class="eicon-play"></i>
+																		<span class="elementor-screen-only">Play
+																			Video</span>
+																	</div>
+																</div>
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
+
 										</div>
 									</section>
 									<section
@@ -3064,7 +3181,7 @@
 														<div class="elementor-widget-container">
 
 															<div class="wd-image text-left">
-																<a href="/matrix-vision-ai/index.html">
+																<a href="./matrix-vision-ai/index.html">
 																	<img width="1020" height="523"
 																		src="https://edgematrixcorp.com/wp-content/uploads/2023/01/20230104_053331_0000-e1672854354688.png"
 																		class="attachment-full size-full wp-image-8558"
@@ -3082,7 +3199,7 @@
 														<div class="elementor-widget-container">
 
 															<div class="wd-image text-left">
-																<a href="https://edgematrixcorp.com/matrix-voice-ai-2/">
+																<a href="./matrix-voice-ai-2/index.html">
 																	<img width="983" height="697"
 																		src="https://edgematrixcorp.com/wp-content/uploads/2023/01/20230104_052643_0000-e1673329683449.jpg"
 																		class="attachment-full size-full wp-image-8560"
