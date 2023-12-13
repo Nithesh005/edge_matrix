@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
 <head>
 	<meta charset="UTF-8">
@@ -404,23 +405,24 @@
 			visibility: visible;
 		}
 	</style>
+	<!-- https://edgematrixcorp.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0 -->
 	<link rel='stylesheet' id='elementor-icons-css'
-		href='https://edgematrixcorp.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0'
+		href='./wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css'
-		href='https://edgematrixcorp.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.11.1'
+		href='./wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.11.1'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='swiper-css'
-		href='https://edgematrixcorp.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6'
+		href='./wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='elementor-post-11-css'
-		href='https://edgematrixcorp.com/wp-content/uploads/elementor/css/post-11.css?ver=1676586174' type='text/css'
+		href='./wp-content/uploads/elementor/css/post-11.css?ver=1676586174' type='text/css'
 		media='all' />
 	<link rel='stylesheet' id='elementor-post-3529-css'
 		href='https://edgematrixcorp.com/wp-content/uploads/elementor/css/post-3529.css?ver=1676596657' type='text/css'
 		media='all' />
 	<link rel='stylesheet' id='bootstrap-css'
-		href='https://edgematrixcorp.com/wp-content/themes/woodmart/css/bootstrap-light.min.css?ver=6.5.4'
+		href='./wp-content/themes/woodmart/css/bootstrap-light.min.css?ver=6.5.4'
 		type='text/css' media='all' />
 	<link rel='stylesheet' id='woodmart-style-css'
 		href='https://edgematrixcorp.com/wp-content/themes/woodmart/css/parts/base.min.css?ver=6.5.4' type='text/css'
@@ -1040,11 +1042,30 @@
 																data-mouseover="false" data-mouseout=""
 																data-name="animentor-lottie-anim-cdb60c7"></div>
 														</div> -->
-														<div>
-															<video width="640" height="360" autoplay muted loop>
+														<style>
+															.zoomed-video-container {
+																overflow: hidden;
+																width: 640px; /* Set the width of your container */
+																height: 660px; /* Set the height of your container */
+															}
+														
+															.zoomed-video-container video {
+																width: 100%; /* Make the video fill the container width */
+																height: auto; /* Maintain the aspect ratio */
+																transform: scale(1.8); /* Adjust the scale factor to zoom in (e.g., 1.2 means 120% zoom) */
+															}
+														</style>
+														<div class="zoomed-video-container">
+															ah
+															<br><br>
+															<br>
+															<br>
+															<video autoplay muted loop >
 																<source src="Animation.mp4" type="video/mp4">
 																Your browser does not support the video tag.
 															</video>
+															<br><br>
+															<br><br>
 														</div>
 													</div>
 												</div>
@@ -1209,11 +1230,22 @@
 											</div>
 										</div>
 									</section>
-									<img src="Music animation.gif" alt="Music Animation" width="100%" height="100">
+									<style>
+										.cropped-image {
+											margin-top: -370px;
+											width: 100%; /* Set the desired width */
+											height: 1px; /* Set the desired cropped height */
+											object-fit: cover; /* Crop the image to cover the specified dimensions */
+										}
+										.counter{
+											margin-top: -200px;
+										}
+									</style>
+									<img src="Music animation.gif" alt="Music Animation" class="cropped-image">
 									<section
 										class="wd-negative-gap elementor-section elementor-top-section elementor-element elementor-element-859a67d elementor-section-boxed elementor-section-height-default elementor-section-height-default wd-section-disabled"
 										data-id="859a67d" data-element_type="section">
-										<div class="elementor-container elementor-column-gap-default">
+										<div class="elementor-container elementor-column-gap-default counter">
 											<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-bd8813c"
 												data-id="bd8813c" data-element_type="column">
 												<div class="elementor-widget-wrap elementor-element-populated">
@@ -1750,7 +1782,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/matrix-vision-ai/">
+																													href="./matrix-vision-ai/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -1900,7 +1932,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/robotics/">
+																													href="./robotics/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -2047,7 +2079,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/matrix-voice-ai-2/">
+																													href="./matrix-voice-ai-2/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -2197,7 +2229,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/iot/">
+																													href="./iot/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -2359,7 +2391,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/digital-twin/">
+																													href="./digital-twin/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -2531,7 +2563,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/data-science/">
+																													href="./data-science/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -2708,7 +2740,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/predictive-analytics/">
+																													href="./predictive-analytics/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -2874,7 +2906,7 @@
 																											<div
 																												class="wd-button-wrapper woodmart-button-wrapper text-left">
 																												<a class="btn btn-style-default btn-style-semi-round btn-size-default btn-color-primary btn-icon-pos-right"
-																													href="https://edgematrixcorp.com/business-intelligence/">
+																													href="./business-intelligence/index.html">
 																													<span
 																														class="wd-btn-text"
 																														data-elementor-setting-key="text">
@@ -3026,6 +3058,7 @@
 														--flex-grow: var(--container-widget-flex-grow)
 													}
 												</style>
+
 												<!-- https://edgematrixcorp.com/wp-content/uploads/2023/01/20230108_113713_0000.jpg -->
 												<div class="elementor-wrapper elementor-open-inline">
 													<div class="elementor-video"></div>
@@ -3033,8 +3066,8 @@
 														style="background-image: url(https://youtu.be/mJeNghZXtMo);">
 														<div class="elementor-custom-embed-play" role="button"
 															aria-label="Play Video" tabindex="0">
-															<i aria-hidden="true" class="eicon-play"></i> <span
-																class="elementor-screen-only">Play Video</span>
+															<i aria-hidden="true" class="eicon-play"></i> 
+															<span class="elementor-screen-only">Play Video</span>
 														</div>
 													</div>
 												</div>
@@ -3133,7 +3166,7 @@
 																	<div class="elementor-custom-embed-play"
 																		role="button" aria-label="Play Video"
 																		tabindex="0">
-																		<i aria-hidden="true" class="eicon-play"></i>
+																		<i aria-hidden="true" class="fas fa-play"></i>
 																		<span class="elementor-screen-only">Play
 																			Video</span>
 																	</div>
@@ -3218,7 +3251,7 @@
 															<div
 																class="wd-button-wrapper woodmart-button-wrapper text-center wd-collapsible-button">
 																<a class="btn btn-style-3d btn-style-round btn-size-default btn-color-default btn-icon-pos-right"
-																	href="https://edgematrixcorp.com/corporate/">
+																	href="./corporate/index.html">
 																	<span class="wd-btn-text"
 																		data-elementor-setting-key="text">
 																		View ALl </span>
@@ -3382,7 +3415,7 @@
 															<div
 																class="wd-button-wrapper woodmart-button-wrapper text-center wd-collapsible-button">
 																<a class="btn btn-style-3d btn-style-round btn-size-default btn-color-default btn-icon-pos-right"
-																	href="https://edgematrixcorp.com/pose-estimation/">
+																	href="./pose-estimation/index.html">
 																	<span class="wd-btn-text"
 																		data-elementor-setting-key="text">
 																		View Morw </span>
@@ -3440,7 +3473,7 @@
 															<div
 																class="wd-button-wrapper woodmart-button-wrapper text-center wd-collapsible-button">
 																<a class="btn btn-style-3d btn-style-round btn-size-default btn-color-default btn-icon-pos-right"
-																	href="https://edgematrixcorp.com/activity/">
+																	href="./activity/index.html">
 																	<span class="wd-btn-text"
 																		data-elementor-setting-key="text">
 																		View more </span>
@@ -3498,7 +3531,7 @@
 															<div
 																class="wd-button-wrapper woodmart-button-wrapper text-center wd-collapsible-button">
 																<a class="btn btn-style-3d btn-style-round btn-size-default btn-color-default btn-icon-pos-right"
-																	href="https://edgematrixcorp.com/activity/">
+																	href="./activity/index.html">
 																	<span class="wd-btn-text"
 																		data-elementor-setting-key="text">
 																		View more </span>
